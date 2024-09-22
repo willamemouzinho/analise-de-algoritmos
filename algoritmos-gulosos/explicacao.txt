@@ -1,0 +1,18 @@
+### O que são Algoritmos Gulosos?
+Os algoritmos gulosos resolvem problemas seguindo uma abordagem onde, em cada etapa, escolhemos a solução que parece 
+ser a melhor naquele momento. A ideia é tomar a decisão "gananciosa" sem olhar para o futuro, ou seja, sem voltar atrás
+nas decisões já tomadas.
+
+Características dos Algoritmos Gulosos:
+  - Escolhas locais: Fazem uma escolha que parece ser a melhor naquele momento (localmente ótima).
+  - Não garantem sempre a solução ótima: Em muitos casos, os algoritmos gulosos não produzem a solução ótima global. 
+  Para alguns problemas, como o Problema da Mochila (Knapsack), o algoritmo guloso pode falhar em encontrar a solução 
+  correta.
+  - Rápidos e simples: São eficientes, frequentemente com complexidade 𝑂(𝑛 log 𝑛) O(n log n) devido à necessidade de 
+  ordenação dos dados em muitos problemas.
+
+### Estrutura de um Algoritmo Guloso
+  1. Formular o problema em etapas: Decompor o problema em uma série de decisões ou escolhas.
+  2. Escolha gulosa: Para cada etapa, escolher a melhor opção local, de acordo com algum critério.
+  3. Garantir viabilidade: Certificar-se de que a escolha feita não viola as restrições do problema.
+  4. Conquistar: Resolver o problema por meio da repetição desse processo, esperando chegar à solução ótima.

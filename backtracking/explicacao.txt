@@ -1,0 +1,13 @@
+### O que é Backtracking?
+Backtracking é uma técnica para encontrar soluções através da tentativa e erro, explorando todas as combinações possíveis. Funciona como uma busca em árvore onde tomamos decisões passo a passo, e se uma decisão leva a um caminho inviável, voltamos atrás e tentamos outra solução.
+
+Características de Backtracking:
+  - Busca exaustiva: Explora todas as combinações possíveis.
+  - Exploração parcial: Quando encontramos uma solução que não satisfaz as restrições do problema, interrompemos a exploração desse caminho e voltamos para tentar outro (daí o nome "backtracking").
+  - Pode ser otimizado: Frequentemente, utilizamos estratégias como poda para evitar explorar caminhos que já sabemos que não levarão a uma solução.
+
+### Estrutura Geral de Backtracking:
+  1. Escolher: Faz uma escolha para uma parte da solução.
+  2. Verificar: Verifica se essa escolha leva a uma solução viável.
+  3. Explorar: Se for viável, prossegue para tentar completar a solução.
+  4. Voltar atrás: Se não for viável, desfaz a última escolha e tenta outra possibilidade.

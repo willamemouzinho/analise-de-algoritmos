@@ -1,0 +1,9 @@
+### O que é Divisão e Conquista?
+A abordagem de Divisão e Conquista segue três etapas principais:
+
+  1. Dividir: Quebrar o problema original em subproblemas menores, idealmente de tamanhos semelhantes.
+  2. Conquistar: Resolver os subproblemas de forma recursiva, até que os subproblemas sejam simples o suficiente para serem resolvidos diretamente.
+  3. Combinar: Combinar as soluções dos subproblemas para resolver o problema original.
+
+### Exemplos Clássicos
+Dois exemplos clássicos de algoritmos baseados em Divisão e Conquista são o Merge Sort e o Quick Sort. Vou te explicar ambos, começando com o Merge Sort.

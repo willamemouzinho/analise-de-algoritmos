@@ -1,0 +1,19 @@
+### O que é Programação Dinâmica?
+Programação Dinâmica é uma técnica que resolve problemas complexos quebrando-os em subproblemas menores e 
+resolvendo-os de forma eficiente, armazenando os resultados dos subproblemas já resolvidos para evitar cálculos repetidos.
+
+Ela é particularmente útil quando o problema apresenta duas características principais:
+
+  - Subproblemas sobrepostos: O problema pode ser decomposto em subproblemas menores, e muitos desses subproblemas se repetem várias vezes.
+  - Subestrutura ótima: A solução ótima do problema original pode ser obtida a partir das soluções ótimas de seus subproblemas.
+
+### Abordagem Geral da Programação Dinâmica
+  1. Definir o problema recursivamente em termos dos subproblemas.
+  2. Memorizar (armazenar) os resultados dos subproblemas já resolvidos, seja de forma explícita em uma tabela (matriz ou array), seja através da técnica de memoização.
+  3. Reconstruir a solução ótima a partir dos subproblemas resolvidos.
+
+### Tipos de Abordagens de Programação Dinâmica
+Existem dois métodos principais de implementação da Programação Dinâmica:
+
+  - Top-Down (Memoization): Aqui, você resolve o problema de forma recursiva, e vai armazenando os resultados dos subproblemas já calculados para evitar recomputações.
+  - Bottom-Up (Tabulação): Nesta abordagem, você resolve os subproblemas menores primeiro e vai construindo a solução do problema maior, usando uma tabela.

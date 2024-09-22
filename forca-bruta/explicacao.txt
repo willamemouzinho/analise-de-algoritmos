@@ -1,0 +1,14 @@
+### O que é Força Bruta?
+A técnica de força bruta resolve problemas explorando todas as soluções possíveis e verificando qual delas é a correta.
+Em outras palavras, a ideia é testar todas as combinações ou possibilidades, sem tentar otimizar o processo.
+
+Características principais:
+  - Simples de implementar: Não requer estratégias complexas, apenas a exploração completa do espaço de soluções.
+  - Lenta em muitos casos: A eficiência não é o foco da força bruta, e ela tende a ser lenta para problemas com um grande número de possíveis soluções.
+  - Útil para pequenos problemas: Pode ser uma boa solução para problemas onde o espaço de soluções é pequeno ou onde não é fácil encontrar algoritmos mais eficientes.
+
+### Exemplos Clássicos
+Dois exemplos comuns de algoritmos de força bruta são:
+
+  - Busca por correspondência de string: Comparar uma string padrão com todas as subsequências possíveis de uma string maior.
+  - Problema do Caixeiro Viajante: Testar todas as permutações possíveis de rotas para encontrar a rota de menor custo.
