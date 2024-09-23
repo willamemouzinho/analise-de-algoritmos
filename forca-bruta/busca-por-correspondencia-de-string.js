@@ -22,6 +22,25 @@ function bruteForceSearch(text, pattern) {
   }
 
   return -1 // Retorna -1 se não houver correspondência
+
+  // let cont = 0
+  // for (let i = 0; i < string.length - substring.length; i++) {
+  //   if (string[i] === substring[0]) {
+  //     let tmp = i
+  //     for (let j = 0; j < substring.length; j++) {
+  //       if (substring[j] === string[tmp]) {
+  //         cont++
+  //       }
+  //       tmp++
+  //     }
+
+  //     if (cont === substring.length) {
+  //       return i
+  //     }
+  //   }
+  // }
+
+  // return -1
 }
 
 // Exemplo de uso
